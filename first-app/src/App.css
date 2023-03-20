@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar {
+  height: 83px;
+  line-height: 80px;
+  width: 100%;
+  background-color: #000a25;
+  color: black;
+  margin: 0px auto;
+}
+.navbar a {
+  text-decoration: none;
+  color: #FEDEFF;
+  margin-right: 20px;
+}
+.navbar:hover {
+background-color: #dc74e8;
+}
+.navbar a:hover {
+  color: #0035c6;
+}
+.alt_navbar {
+  height: 37px;
+  width: 100%;
+  background-color: #FEDEFF ;
+}
+.govde {
+  height: 85vh;
+  width: 100%;
+  background-color: #fff6ff;
+  color: black;
+}
+.giris {
+  background-color: #000a25;
+  width: 155px;
+  height: 42px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 15px;
+}
+.giris:hover {
+  transform: scale(0.96);
+  background: #d8a7d8;
+  color: rgb(51, 51, 152);
+}
+.govde p{
+margin: 5px;
+
+}
